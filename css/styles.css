@@ -36,13 +36,13 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 	display: block;
 }
 header, footer {
-	min-width: 350px;
+	min-width: 360px;
 }
 
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
-	min-width: 350px;
+	min-width: 360px;
 }
 #footer {
   background-color: #444;
@@ -327,7 +327,7 @@ main section {
 
 }
 
-@media all and (min-width: 481px) and (max-width: 720px) {
+@media screen and (min-width: 501px) and (max-width: 720px) {
 	.filter-options select {
 		width: calc(50% - 7px);
 	}
@@ -341,11 +341,36 @@ main section {
 	}
 	#restaurants-list .restaurant-img {
 		object-fit: cover;
-		height:20%;
 	}
 }
+@media screen and (min-width: 501px) and (max-width: 720px) and (orientation: landscape) {
+	.filter-options select {
+		width: calc(50% - 7px);
+	}
+	#neighborhoods-select {
+		margin-right:10px;
+	}
+	#restaurants-list {
+		background-color: aqua;
+	}
+	#restaurants-list li {
+	}
+	#restaurants-list .restaurant-img {
+		object-fit: cover;
+		/* VH / viewport units are currently supported by ~93% of global users */
+		/* px for everyone else */
+		height:50px;
+		height:30vh;
+	}
+	#map-container {
+		background-color: #3397DB;
+	}
+	#map {
+		width: 90%;
+		right: -5%;	}
+}
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 	#restaurants-list {
 		background-color: red;
 	}
