@@ -300,13 +300,9 @@ main section {
 
 /* ====================== breakpoints ====================== */
 @media all and (min-width: 960px) {
-	#restaurants-list {
-		background-color: purple;
-	}
 	#restaurants-list li:nth-of-type(3n) {
 		margin-right:0px;
 	}
-
 	#restaurants-list li {
 		width:calc(33% - 41px);
 		margin-right: 15px;
@@ -317,7 +313,6 @@ main section {
 		#restaurants-list li p:nth-of-type(2) {
 			font-size: 1rem;
 			min-height: 3em;
-			color:red;
 		}
 
 }
@@ -326,9 +321,6 @@ main section {
 
 /* ----- 721px -> 959px ----- */
 @media all and (min-width: 721px) and (max-width: 959px) {
-	#restaurants-list {
-		background-color: green;
-	}
 	#restaurants-list li {
 		width: calc(50% - 42px);
 		margin-right: 15px;
@@ -340,17 +332,13 @@ main section {
 		font-size: 1.5rem;
 		min-height: 3em;
 		}
-		#restaurants-list li p:nth-of-type(2) {
-			font-size: 1rem;
-			min-height: 3em;
-			color:red;
-		}
+	#restaurants-list li p:nth-of-type(2) {
+		font-size: 1rem;
+		min-height: 3em;
+	}
 
 
 	@media (orientation: landscape) {
-		#map-container {
-			background-color: #3397DB;
-		}
 		#map {
 			width: 90%;
 			right: -5%;
@@ -359,9 +347,7 @@ main section {
 			padding: 0 5%;
 		}
 		#restaurants-list {
-			background-color: orange;
 			padding: 30px 5%;
-
 		}
 		#restaurants-list li {
 			min-height: 0px;
@@ -385,17 +371,11 @@ main section {
 	#neighborhoods-select {
 		margin-right:10px;
 	}
-	#restaurants-list {
-		background-color: blue;
-	}
 	#restaurants-list .restaurant-img {
 		object-fit: cover;
 	}
 
 	@media (orientation: landscape) {
-		#map-container {
-			background-color: #3397DB;
-		}
 		#map {
 			width: 90%;
 			right: -5%;
@@ -404,7 +384,6 @@ main section {
 			padding: 0 5%;
 		}
 		#restaurants-list {
-			background-color: aqua;
 			padding: 30px 5%;
 		}
 		#restaurants-list li {
@@ -426,9 +405,6 @@ main section {
 @media screen and (max-width: 500px) {
 	.filter-options select {
 		width:100%;
-	}
-	#restaurants-list {
-		background-color: red;
 	}
 	#restaurants-list li a {
 		width:100%;
