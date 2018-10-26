@@ -202,7 +202,7 @@ nav h1 a {
   position: fixed;
   right: 0;
   top: 80px;
-  width: 50%;
+  /* remove and convert to flexbox | width: 50%;*/
 
 }
 .inside #map {
@@ -248,7 +248,7 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 50%;
+	/* remove and convert to flexbox | width: 50%;*/
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -298,6 +298,8 @@ main section {
 	flex-wrap: wrap;
 }
 
+
+
 /* ====================== breakpoints ====================== */
 @media all and (min-width: 960px) {
 	#restaurants-list li:nth-of-type(3n) {
@@ -314,6 +316,9 @@ main section {
 			font-size: 1rem;
 			min-height: 3em;
 		}
+
+
+			/* --- restaurant styles --- */
 
 }
 
@@ -338,6 +343,11 @@ main section {
 	}
 
 
+
+		/* --- restaurant styles --- */
+
+
+
 	@media (orientation: landscape) {
 		#map {
 			width: 90%;
@@ -359,6 +369,10 @@ main section {
 		#restaurants-list .restaurant-img {
 			height: 45vh;
 		}
+
+
+			/* --- restaurant styles --- */
+
 	}
 }
 
@@ -374,6 +388,11 @@ main section {
 	#restaurants-list .restaurant-img {
 		object-fit: cover;
 	}
+
+
+
+		/* --- restaurant styles --- */
+
 
 	@media (orientation: landscape) {
 		#map {
@@ -396,6 +415,10 @@ main section {
 			height:150px;
 			height:50vh;
 		}
+
+
+			/* --- restaurant styles --- */
+
 	}
 }
 
@@ -403,11 +426,28 @@ main section {
 
 /* ----- 0px -> 500px ----- */
 @media screen and (max-width: 500px) {
+	/* --- home styles --- */
 	.filter-options select {
 		width:100%;
 	}
 	#restaurants-list li a {
 		width:100%;
 		padding: 8px 0 10px 0;
+	}
+
+
+	/* --- restaurant styles --- */
+	.inside #breadcrumb {
+		width:100%;
+	}
+	.inside #map-container {
+		width:100%;
+		order: 3;
+	}
+	inside #restaurant-container {
+		order: 1;
+	}
+	inside #reviews-container {
+		order:2;
 	}
 }

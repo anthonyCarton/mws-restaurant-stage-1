@@ -5,6 +5,20 @@ var newMap;
 var markers = [];
 
 /**
+	* Register Service Worker
+	*/
+
+if (navigator.serviceWorker) {
+	navigator.serviceWorker.register('sw.js', {
+		scope: '/mws-restaurant-stage-1/'}).then(function(register) {
+		console.log('SW Registered');
+	}).catch(function(error) {
+		console.log('SW Not Registered with error: ' + error);
+	});
+}
+
+
+/**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
 document.addEventListener('DOMContentLoaded', (event) => {
