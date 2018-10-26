@@ -348,8 +348,20 @@ main section {
 
 
 	@media (orientation: landscape) {
+		#map-container {
+			background-color: #3397DB;
+		}
+		#map {
+			width: 90%;
+			right: -5%;
+		}
+		.filter-options {
+			padding: 0 5%;
+		}
 		#restaurants-list {
 			background-color: orange;
+			padding: 30px 5%;
+
 		}
 		#restaurants-list li {
 			min-height: 0px;
@@ -381,6 +393,13 @@ main section {
 	}
 
 	@media (orientation: landscape) {
+		#map-container {
+			background-color: #3397DB;
+		}
+		#map {
+			width: 90%;
+			right: -5%;
+		}
 		.filter-options {
 			padding: 0 5%;
 		}
@@ -397,13 +416,6 @@ main section {
 			/* px for everyone else */
 			height:150px;
 			height:50vh;
-		}
-		#map-container {
-			background-color: #3397DB;
-		}
-		#map {
-			width: 90%;
-			right: -5%;
 		}
 	}
 }
