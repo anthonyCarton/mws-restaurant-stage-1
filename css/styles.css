@@ -378,10 +378,14 @@ main section {
 
 /* ----- 0px -> 500px ----- */
 @media screen and (max-width: 500px) {
+	.filter-options select {
+		width:100%;
+	}
 	#restaurants-list {
 		background-color: red;
 	}
-	.filter-options select {
+	#restaurants-list li a {
 		width:100%;
+		padding: 8px 0 10px 0;
 	}
 }
