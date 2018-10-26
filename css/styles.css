@@ -298,8 +298,7 @@ main section {
 	flex-wrap: wrap;
 }
 
-/* ====================== typical breakpoints ====================== */
-/* https://medium.com/@uiuxlab/the-most-used-responsive-breakpoints-in-2017-of-mine-9588e9bd3a8a */
+/* ====================== breakpoints ====================== */
 @media all and (min-width: 960px) {
 	#restaurants-list {
 		background-color: purple;
@@ -347,8 +346,16 @@ main section {
 	}
 
 	@media (orientation: landscape) {
+		.filter-options {
+			padding: 0 5%;
+		}
 		#restaurants-list {
 			background-color: aqua;
+			padding: 30px 5%;
+		}
+		#restaurants-list li {
+			width:100%;
+			position:relative;
 		}
 		#restaurants-list .restaurant-img {
 			object-fit: cover;
