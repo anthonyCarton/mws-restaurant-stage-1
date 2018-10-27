@@ -1,6 +1,6 @@
 const CACHE = 'network-or-cache';
 
-// On Install, cache some resource.
+// On Install, cache resources.
 self.addEventListener('install', function(event) {
 	console.log('SW is installing');
 	// Ask SW to keep installing until returning promise resolves.

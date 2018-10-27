@@ -3,7 +3,7 @@
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: .8em;
+	font-size: 1em;
 	color: #333;
 	line-height: 1.5;
 }
@@ -14,7 +14,7 @@ body {
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: .8rem;
+	font-size: 1rem;
 	color: #333;
 }
 a {
@@ -134,7 +134,7 @@ nav h1 a {
   background-color: white;
   border: 1px solid #fff;
   font-family: Arial,sans-serif;
-  font-size: .8rem;
+  font-size: 1rem;
   height: 50px;
   letter-spacing: 0;
   margin-bottom: 20px;
@@ -184,7 +184,7 @@ nav h1 a {
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
-  font-size: .8rem;
+  font-size: 1rem;
   margin: 15px 0 0;
   padding: 8px 30px 10px;
   text-align: center;
@@ -234,7 +234,7 @@ nav h1 a {
 	width: 100%;
 }
 #restaurant-address {
-  font-size: .8rem;
+  font-size: 1rem;
   margin: 10px 0px;
 }
 #restaurant-cuisine {
@@ -344,6 +344,10 @@ main section {
 		font-size: 1rem;
 		min-height: 3em;
 	}
+	.inside #restaurant-container {
+		background-color: lavender;
+	}
+
 
 
 	/* --- restaurant styles --- */
@@ -361,6 +365,10 @@ main section {
 	  top: 80px;
 	  /* remove and convert to flexbox | width: 50%;*/
 	}
+	.inside #restaurant-container {
+		background-color: purple;
+	}
+
 
 }
 
@@ -387,6 +395,9 @@ main section {
 
 
 		/* --- restaurant styles --- */
+		.inside #restaurant-container {
+			background-color: coral;
+		}
 
 
 
@@ -421,6 +432,9 @@ main section {
 
 
 			/* --- restaurant styles --- */
+			.inside #restaurant-container {
+				background-color: orange;
+			}
 
 	}
 }
@@ -436,6 +450,10 @@ main section {
 	}
 	#restaurants-list .restaurant-img {
 	}
+	.inside #restaurant-container {
+		background-color: aqua;
+	}
+
 
 
 
@@ -476,6 +494,10 @@ main section {
 		#reviews-list li p {
 	    font-size: 1rem;
 		}
+		.inside #restaurant-container {
+			background-color: blue;
+		}
+
 
 
 			/* --- restaurant styles --- */
@@ -505,6 +527,7 @@ main section {
 	.inside #map-container {
 	}
 	.inside #restaurant-container {
+		background-color: red;
 	}
 	.inside #reviews-container {
 	}
