@@ -349,6 +349,9 @@ main section {
 
 
 	@media (orientation: landscape) {
+		#map-container {
+			background-color: #3397DB;
+		}
 		#map {
 			width: 90%;
 			right: -5%;
@@ -395,6 +398,9 @@ main section {
 
 
 	@media (orientation: landscape) {
+		#map-container {
+			background-color: #3397DB;
+		}
 		#map {
 			width: 90%;
 			right: -5%;
