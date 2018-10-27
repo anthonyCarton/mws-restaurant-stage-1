@@ -455,7 +455,6 @@ main section {
 			background-color: #3397DB;
 		}
 		.inside #map-container {
-
 		}
 		.filter-options {
 			padding: 0 5%;
@@ -467,11 +466,15 @@ main section {
 			width:100%;
 			position:relative;
 		}
-		#restaurants-list .restaurant-img {
+		.restaurant-img {
+			/* For both index.html and restaurant.html */
 			/* VH / viewport units are currently supported by ~93% of global users */
 			/* px for everyone else */
 			height:150px;
 			height:50vh;
+		}
+		#reviews-list li p {
+	    font-size: 1rem;
 		}
 
 
@@ -502,8 +505,11 @@ main section {
 	.inside #map-container {
 	}
 	.inside #restaurant-container {
-		background-color: red;
 	}
 	.inside #reviews-container {
 	}
+	#reviews-list li p {
+		font-size: 1rem;
+	}
+
 }
