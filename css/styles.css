@@ -481,10 +481,11 @@ main section {
 		width:100%;
 		order: 3;
 	}
-	inside #restaurant-container {
+	.inside #restaurant-container {
 		order: 1;
+		background-color: red;
 	}
-	inside #reviews-container {
+	.inside #reviews-container {
 		order:2;
 	}
 }
