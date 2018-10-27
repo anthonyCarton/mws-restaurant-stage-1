@@ -98,7 +98,7 @@ nav h1 a {
 /* Add a color to all links inside the list */
 #breadcrumb li a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Add a color on mouse-over */
