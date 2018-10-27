@@ -112,6 +112,7 @@ nav h1 a {
 /* ====================== Map ====================== */
 #map {
   height: 400px;
+	height: 50vh;
   width: 100%;
   background-color: #ccc;
 }
@@ -348,25 +349,26 @@ main section {
 		background-color: lavender;
 	}
 
-
-
 	/* --- restaurant styles --- */
 	.inside header {
-	  position: fixed;
-	  top: 0;
 	  width: 100%;
-	  z-index: 1000;
 	}
 	.inside #map-container {
 	  background: blue none repeat scroll 0 0;
 	  height: 87%;
-	  position: fixed;
-	  right: 0;
-	  top: 80px;
-	  /* remove and convert to flexbox | width: 50%;*/
 	}
 	.inside #restaurant-container {
 		background-color: purple;
+	}
+	.inside #map-container {
+		order: 1;
+		height:60vh;
+	}
+	.inside #restaurant-container {
+		order: 2;
+	}
+	.inside #reviews-container {
+		order:3;
 	}
 
 
@@ -392,12 +394,10 @@ main section {
 		min-height: 3em;
 	}
 
-
-
-		/* --- restaurant styles --- */
-		.inside #restaurant-container {
-			background-color: coral;
-		}
+	/* --- restaurant styles --- */
+	.inside #restaurant-container {
+		background-color: coral;
+	}
 
 
 
@@ -425,17 +425,22 @@ main section {
 		#restaurants-list li h1 {
 			font-size: 1.5rem;
 	    min-height: 3em;
-			}
-		#restaurants-list .restaurant-img {
-			height: 45vh;
+		}
+		.restaurant-img {
+			/* For both index.html and restaurant.html */
+			/* VH / viewport units are currently supported by ~93% of global users */
+			/* px for everyone else */
+			height:150px;
+			height:45vh;
 		}
 
-
-			/* --- restaurant styles --- */
-			.inside #restaurant-container {
-				background-color: orange;
-			}
-
+		/* --- restaurant styles --- */
+		.inside #restaurant-container {
+			background-color: orange;
+		}
+		#reviews-list li p {
+			max-width:550px;
+		}
 	}
 }
 
