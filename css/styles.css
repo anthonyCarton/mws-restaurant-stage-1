@@ -400,9 +400,16 @@ main section {
 	.inside #reviews-container {
 		order:3;
 	}
-
-
-}
+	#reviews-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#reviews-list li {
+		width:calc(50% - 62px);
+	}
+	#reviews-list li:nth-of-type(odd) {
+		margin-right:20px;
+	}
 
 
 
