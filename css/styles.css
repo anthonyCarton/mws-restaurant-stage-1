@@ -355,17 +355,47 @@ main section {
 	}
 	.inside #map-container {
 	  background: blue none repeat scroll 0 0;
-	  height: 87%;
-	}
-	.inside #restaurant-container {
-		background-color: purple;
-	}
-	.inside #map-container {
+	  height: 300px;
+		height: 60vh;
 		order: 1;
-		height:60vh;
 	}
 	.inside #restaurant-container {
+		background-color: white;
+		display: flex;
+		flex-wrap:wrap;
 		order: 2;
+		padding:0;
+	}
+	.inside #restaurant-container h1 {
+		margin:40px 5% 10px;
+		order: 2;
+		width:100%;
+	}
+	.inside #restaurant-container img {
+		height: 60vh;
+		margin:0 15px 10vh 5%;
+		order:4;
+		width:calc(55% - 15px);
+	}
+	.inside #restaurant-container #restaurant-cuisine {
+		margin:0;
+		padding: 5px 0;
+		order:1;
+		width:100%;
+	}
+	.inside #restaurant-container #restaurant-address {
+		margin:0 5% 20px;
+		order: 3;
+		width:100%;
+	}
+	.inside #restaurant-container table {
+		margin:0 5% 0 0;
+		max-width: 500px;
+		order:5;
+		width: 35%;
+	}
+	.inside #restaurant-container tr, .inside #restaurant-container td {
+    vertical-align: top;
 	}
 	.inside #reviews-container {
 		order:3;
