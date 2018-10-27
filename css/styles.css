@@ -396,6 +396,10 @@ main section {
 			width: 90%;
 			right: -5%;
 		}
+		.inside #map {
+			width: 100%;
+			right: 0;
+		}
 		.filter-options {
 			padding: 0 5%;
 		}
@@ -438,12 +442,19 @@ main section {
 
 
 	@media (orientation: landscape) {
+		#map {
+			width: 90%;
+			right: -5%;
+		}
+		.inside #map {
+			width: 100%;
+			right: 0;
+		}
 		#map-container {
 			background-color: #3397DB;
 		}
-		#map, .inside #map {
-			width: 90%;
-			right: -5%;
+		.inside #map-container {
+
 		}
 		.filter-options {
 			padding: 0 5%;
