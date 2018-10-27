@@ -204,8 +204,8 @@ nav h1 a {
   /*right: 0;*/
   /*top: 80px;*/
   /* remove and convert to flexbox | width: 50%;*/
-	height: 400px;
-	height: 80vh;
+	height: 450px;
+	height: 70vh;
   width: 100%;
 }
 .inside #map {
@@ -254,7 +254,7 @@ nav h1 a {
 	/* remove and convert to flexbox | width: 50%;*/
 }
 #reviews-container {
-  padding: 20px 5% 40px;
+  padding: 20px 5%;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -269,17 +269,26 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
-  overflow: hidden;
-  padding: 0 20px 20px;
-  position: relative;
-  width: 85%;
+  padding: 10px 20px 20px;
+	/*overflow: hidden;*/
+  /*position: relative;*/
+  /*width: 85%;*/
 }
 #reviews-list li p {
   margin: 0 0 10px;
+}
+#reviews-list li p:first-of-type {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+#reviews-list li p:nth-of-type(2) {
+	color:darkgrey;
+
 }
 #restaurant-hours {
 	width:100%;
