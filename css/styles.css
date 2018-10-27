@@ -192,19 +192,21 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 .inside header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
+  /* position: fixed;*/
+  /* top: 0;*/
+  /* width: 100%;*/
+  /* z-index: 1000;*/
 }
 .inside #map-container {
-  background: blue none repeat scroll 0 0;
-  height: 87%;
-  position: fixed;
-  right: 0;
-  top: 80px;
+  /*background: blue none repeat scroll 0 0;*/
+  /*height: 87%;*/
+  /*position: fixed;*/
+  /*right: 0;*/
+  /*top: 80px;*/
   /* remove and convert to flexbox | width: 50%;*/
-
+	height: 400px;
+	height: 80vh;
+  width: 100%;
 }
 .inside #map {
   background-color: #ccc;
@@ -212,8 +214,8 @@ nav h1 a {
   width: 100%;
 }
 .inside #footer {
-  bottom: 0;
-  position: absolute;
+  /* bottom: 0;*/
+  /* position: absolute;*/
   /*width: 50%;*/
 }
 #restaurant-name {
@@ -312,14 +314,28 @@ main section {
 	}
 	#restaurants-list li h1 {
 		font-size: 1.5rem;
-		}
-		#restaurants-list li p:nth-of-type(2) {
-			font-size: 1rem;
-			min-height: 3em;
-		}
+	}
+	#restaurants-list li p:nth-of-type(2) {
+		font-size: 1rem;
+		min-height: 3em;
+	}
 
 
-			/* --- restaurant styles --- */
+	/* --- restaurant styles --- */
+	.inside header {
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  z-index: 1000;
+	}
+	.inside #map-container {
+	  background: blue none repeat scroll 0 0;
+	  height: 87%;
+	  position: fixed;
+	  right: 0;
+	  top: 80px;
+	  /* remove and convert to flexbox | width: 50%;*/
+	}
 
 }
 
@@ -446,6 +462,7 @@ main section {
 	/* --- restaurant styles --- */
 	.inside #breadcrumb {
 		/*width:100%;*/
+
 	}
 	.inside #map-container {
 		width:100%;
