@@ -435,6 +435,11 @@ main section {
 	.inside #restaurant-container {
 		background-color: coral;
 	}
+	.restaurant-img {
+		height:150px;
+		height:35vh;
+	}
+
 
 
 
