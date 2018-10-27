@@ -313,6 +313,16 @@ main section {
 	display: flex;
 	flex-wrap: wrap;
 }
+.inside #map-container {
+	order: 3;
+}
+.inside #restaurant-container {
+	order: 1;
+}
+.inside #reviews-container {
+	order:2;
+}
+
 
 
 
@@ -431,7 +441,7 @@ main section {
 		#map-container {
 			background-color: #3397DB;
 		}
-		#map {
+		#map, .inside #map {
 			width: 90%;
 			right: -5%;
 		}
@@ -478,14 +488,10 @@ main section {
 
 	}
 	.inside #map-container {
-		width:100%;
-		order: 3;
 	}
 	.inside #restaurant-container {
-		order: 1;
 		background-color: red;
 	}
 	.inside #reviews-container {
-		order:2;
 	}
 }
