@@ -23,8 +23,7 @@ The Network or Cache technique doesn't fully work for this project so parts of t
 ### [CanIUse: Viewport Units](https://caniuse.com/#feat=viewport-units)
 Referenced CanIUse: Viewport Units to make sure I could use VH (viewport height). Viewport units are available to approximately 90% of users globally so I included a fallback height in PX.
 
-### Stack Overflow
-[What is the HTML tabindex attribute?](https://stackoverflow.com/questions/4112289/what-is-the-html-tabindex-attribute)
+### Stack Overflow [What is the HTML tabindex attribute?](https://stackoverflow.com/questions/4112289/what-is-the-html-tabindex-attribute)
 
 ### WAI-ARIA [Collapsible Dropdown Listbox Example](https://www.w3.org/TR/wai-aria-practices/examples/listbox/listbox-collapsible.html)
 
