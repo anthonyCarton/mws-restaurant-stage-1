@@ -16,18 +16,18 @@
     </nav>
   </header>
 
-  <main id="maincontent" role="main">
-    <section id="map-container">
+  <main id="maincontent">
+    <section id="map-container" aria-label="Map">
       <div id="map"></div>
     </section>
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
+        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" role="listbox" aria-label="Select Neighborhood">
+          <option value="all" role="option">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
+        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" role="listbox" aria-label="Select Cuisine">
+          <option value="all" role="option">All Cuisines</option>
         </select>
       </div>
       <ul id="restaurants-list"></ul>
