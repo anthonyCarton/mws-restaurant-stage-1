@@ -1,37 +1,66 @@
-# Mobile Web Specialist Certification Course
+# Front End Developer Course
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+#### _Restaurant Reviews Project_
 
 ## Project Overview: Stage 1
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
-
-### Specification
-
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality.
-
-### What do I do from here?
-
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
-
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+For the **Restaurant Reviews** projects, I have converted a static webpage to a mobile-ready web application. I took a static design that lacked accessibility and converted the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for users.
 
 ## Leaflet.js and Mapbox:
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
+This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). If you clone the project, please replace my token with a your own token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
 
-### Note about ES6
-
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
 
 ## Resources accessed to get this done
 
 ### [Mozilla serviceWorker Cookbook](https://serviceworke.rs/strategy-network-or-cache_service-worker_doc.html)
 Referenced Mozilla's serviceWorker Cookbook, using Network or Cache technique.
 
+### [Mathew Cranford Service Worker Walkthrough](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
+The Network or Cache technique doesn't fully work for this project so parts of the service worker also come from Mathew Cranford's serviceWorker walkthrough, specifically the part about having to clone the response to use it twice.
+
 ### [CanIUse: Viewport Units](https://caniuse.com/#feat=viewport-units)
 Referenced CanIUse: Viewport Units to make sure I could use VH (viewport height). Viewport units are available to approximately 90% of users globally so I included a fallback height in PX.
+
+## Contributing
+This is a project for my class so I will probably not be accepting contributions.
+
+## How to run this project
+### Fork it!
+To run the project, fork it on [Github](https://github.com/anthonyCarton/mws-restaurant-stage-1).
+
+### Pull it!
+Once you've forked the project, pull it.
+```
+git pull https://github.com/{your github profile}/mws-restaurant-stage-1.git
+```
+
+### CD into it!
+Now that you've pulled it down to your computer, change directories (CD) into the directory.
+```
+cd mws-restaurant-state-1
+```
+
+### Spin up that simple HTTP server!
+Inside of the project directory, you'll need to start a simple HTTP server. There are a lot of ways to do this, but I used Python's SimpleHTTPServer. Begin by making sure you have Python installed, you probably do, and checking which version of Python you are using.
+
+In a terminal, check the version of Python you have:
+```
+python -V
+```
+
+If you have Python 2.x, spin up the server with:
+```
+python -m SimpleHTTPServer 8000
+```
+
+For Python 3.x, you can use:
+```
+python3 -m http.server 8000
+```
+
+Note: You can specify another port (the 8000), if port 8000 is already in use.
+If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+
+### Open it!
+In your favorite browser (Netscape! j/k) navigate to localhost:8000
