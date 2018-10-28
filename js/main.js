@@ -5,8 +5,8 @@ var newMap;
 var markers = [];
 
 /**
-	* Register Service Worker
-	*/
+  * Register Service Worker
+  */
 if ('serviceWorker' in navigator) {
 	navigator.serviceWorker.register('sw.js').then(function(register) {
 		console.log('SW Registered');
