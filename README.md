@@ -19,8 +19,17 @@ Referenced Mozilla's serviceWorker Cookbook, using Network or Cache technique.
 ### [Mathew Cranford Service Worker Walkthrough](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/)
 The Network or Cache technique doesn't fully work for this project so parts of the service worker also come from Mathew Cranford's serviceWorker walkthrough, specifically the part about having to clone the response to use it twice.
 
+### [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/primers/service-workers/)
+
 ### [CanIUse: Viewport Units](https://caniuse.com/#feat=viewport-units)
 Referenced CanIUse: Viewport Units to make sure I could use VH (viewport height). Viewport units are available to approximately 90% of users globally so I included a fallback height in PX.
+
+### Stack Overflow
+[What is the HTML tabindex attribute?](https://stackoverflow.com/questions/4112289/what-is-the-html-tabindex-attribute)
+
+### WAI-ARIA [Collapsible Dropdown Listbox Example](https://www.w3.org/TR/wai-aria-practices/examples/listbox/listbox-collapsible.html)
+
+### WAI-ARIA [Breadcrumb Example](https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html)
 
 ## Contributing
 This is a project for my class so I will probably not be accepting contributions.
