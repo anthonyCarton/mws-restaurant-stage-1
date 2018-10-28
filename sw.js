@@ -38,10 +38,11 @@ self.addEventListener('fetch', function(event) {
 
 // Open a cache and use addAll() with an array of assets to add all of them to the cache. Return a promise resolving when all the assets are added.
 function precache() {
-	return caches.open(CACHE).then(function (cache) {
-		return cache.addAll([
-			'index.html',
-			'restaurant.html'
-		]);
-	});
+	return caches.open(CACHE)
+		.then(function(cache) {
+			return cache.addAll([
+				'index.html',
+				'restaurant.html'
+			]);
+		});
 }
