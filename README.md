@@ -10,7 +10,6 @@ For the **Restaurant Reviews** projects, I have converted a static webpage to a 
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). If you clone the project, please replace my token with a your own token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
 
-
 ## Resources accessed to get this done
 
 ### [Mozilla serviceWorker Cookbook](https://serviceworke.rs/strategy-network-or-cache_service-worker_doc.html)
@@ -24,7 +23,6 @@ The Network or Cache technique doesn't fully work for this project so parts of t
 ### [CanIUse: Viewport Units](https://caniuse.com/#feat=viewport-units)
 Referenced CanIUse: Viewport Units to make sure I could use VH (viewport height). Viewport units are available to approximately 90% of users globally so I included a fallback height in PX.
 
-<<<<<<< HEAD
 ### Stack Overflow
 [What is the HTML tabindex attribute?](https://stackoverflow.com/questions/4112289/what-is-the-html-tabindex-attribute)
 
@@ -32,12 +30,9 @@ Referenced CanIUse: Viewport Units to make sure I could use VH (viewport height)
 
 ### WAI-ARIA [Breadcrumb Example](https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html)
 
-||||||| merged common ancestors
-=======
 ### [Changing a remote's URL](https://help.github.com/articles/changing-a-remote-s-url/)
 Needed to change the remote URL to push this to GitHub.
 
->>>>>>> ee43ce36b1b2a8c2ffffdf03e907128d31bc7e2e
 ## Contributing
 This is a project for my class so I will probably not be accepting contributions.
 
