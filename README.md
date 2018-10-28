@@ -22,6 +22,9 @@ The Network or Cache technique doesn't fully work for this project so parts of t
 ### [CanIUse: Viewport Units](https://caniuse.com/#feat=viewport-units)
 Referenced CanIUse: Viewport Units to make sure I could use VH (viewport height). Viewport units are available to approximately 90% of users globally so I included a fallback height in PX.
 
+### [Changing a remote's URL](https://help.github.com/articles/changing-a-remote-s-url/)
+Needed to change the remote URL to push this to GitHub.
+
 ## Contributing
 This is a project for my class so I will probably not be accepting contributions.
 
