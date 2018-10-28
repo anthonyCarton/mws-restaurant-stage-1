@@ -372,7 +372,7 @@ main section {
 		width:100%;
 	}
 	.inside #restaurant-container img {
-		height: 60vh;
+		height: 40vh;
 		margin:0 15px 10vh 5%;
 		order:4;
 		width:calc(55% - 15px);
