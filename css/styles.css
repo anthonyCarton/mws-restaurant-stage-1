@@ -161,7 +161,7 @@ nav h1 a {
   max-width: 100%;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 1.5rem;
@@ -311,7 +311,7 @@ main section {
 		margin-right: 15px;
 		width:calc(33% - 41px);
 	}
-	#restaurants-list li h1 {
+	#restaurants-list li h2 {
 		font-size: 1.5rem;
 	}
 	#restaurants-list li p:nth-of-type(2) {
@@ -334,7 +334,7 @@ main section {
 		order: 2;
 		padding:0;
 	}
-	.inside #restaurant-container h1 {
+	.inside #restaurant-container h2 {
 		margin:40px 5% 10px;
 		order: 2;
 		width:100%;
@@ -391,7 +391,7 @@ main section {
 	#restaurants-list li:nth-child(even) {
 		margin-right: 0;
 	}
-	#restaurants-list li h1 {
+	#restaurants-list li h2 {
 		font-size: 1.5rem;
 		min-height: 3em;
 		}
@@ -425,7 +425,7 @@ main section {
 		#restaurants-list li {
 			min-height: 0px;
 		}
-		#restaurants-list li h1 {
+		#restaurants-list li h2 {
 			font-size: 1.5rem;
 	    min-height: 3em;
 		}
